@@ -1,13 +1,13 @@
-package com.example;
+package com.ijlia.farmruntracker;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class FarmRunTrackerPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(FarmRunTrackerPlugin.class);
 		RuneLite.main(args);
 	}
 }
