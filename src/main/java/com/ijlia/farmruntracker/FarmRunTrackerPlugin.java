@@ -27,13 +27,13 @@ public class FarmRunTrackerPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		log.info("Example started!");
+		log.info("Farm Run Tracker started!");
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		log.info("Example stopped!");
+		log.info("Farm Run Tracker stopped!");
 	}
 
 	@Subscribe
